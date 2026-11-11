@@ -1,0 +1,16 @@
+saldo = 5000.20
+senha = 1234
+
+print('banco aura...')
+print(' seja bem vindo(a)')
+senha = int(input('digite sua senha:'))
+op = input('''
+               escolha a operação:
+               
+               1 - saque
+               2 - deposito
+               3 - extrato
+          
+          ''')
+resultado = op == '1' and saldo - float(input('você escolheu saque R$: ')) - saldo or op == '2' and float(input('você escolheu deposito')) + saldo or '3' ('extrato: ', saldo)
+print (resultado)
