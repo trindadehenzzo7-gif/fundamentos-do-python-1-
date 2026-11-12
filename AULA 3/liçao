@@ -1,11 +1,19 @@
-numero = float(input('digite um numero real: '))
+--------------------------------------------------
+numero1 = int(input('digite o primeiro numero:'))
+numero2 = int(input('digite o segundo numero: '))
 
-cubo = numero ** 3
+resultado = str(numero1) + str(numero2)
 
-print('o cubo do numero é:', cubo)
+print('resultado da concatenação: ', resultado)
+--------------------------------------------------
 
 
 
+--------------------------------------------
+numero = float(input('digite um numero'))
+print(numero** 3)
+--------------------------------------------
+--------------------------------------------
 fruta1 = 'maçã'
 fruta2 = 'uva'
 fruta3 = 'banana'
@@ -13,13 +21,13 @@ fruta3 = 'banana'
 resultado = fruta1 + fruta2 + fruta3
 
 print(resultado)
+--------------------------------------------
+
+
+--------------------------
+palavra = 'python e show'
 
 
 
-
-numero1 = int(inpult('digite o primeiro numero:'))
-numero2 = int(inpult('digite o segundo numero: '))
-
-resultado = str(numero1) + str(numero2)
-
-print('resultado da concatenação: ', resultado)
+print(palavra, True)
+--------------------------
