@@ -1,0 +1,32 @@
+numero = int(input('escolha um numero: '))
+             
+if numero >0:
+             print('o numero e positivo')
+elif numero< 0:
+             print('o numero e negativo')
+else: print('o numero e zero')
+-----------------------------------------
+
+
+
+----------------------------------------------
+lado1 = int(input('digite o primeiro lado'))
+lado2 = int(input('digite o segundo lado'))
+lado3 = int(input('digite o terceiro lado'))
+
+if lado1 == lado2 == lado3:
+    print('triangulo equilatero')
+elif lado1 == lado2 == lado3:
+    print('triagulo isosceles')
+else: print('triangulo escaleno')
+-----------------------------------------------
+
+-----------------------------------------------
+idade = int(input('digite sua idade: '))
+
+if idade >=18:
+    print('pode entrar')
+    
+else:
+    print('nao pode entrar')
+
