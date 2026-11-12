@@ -1,0 +1,25 @@
+numero = float(input(' nº >>'))
+print(numero ** 3)
+# 
+numero = float(input(' nº >>'))
+print(numero ** 3)
+
+
+fruta1 = 'Manga'
+fruta2 = 'Maçã'
+fruta3 = 'Banana'
+
+print(fruta1 + ' ' + fruta2 + ' ' + fruta3)
+print(fruta1, fruta2, fruta3)
+print(f'{fruta1} {fruta2} {fruta3}')
+print('{} {} {} '.format(fruta1, fruta2, fruta3))
+print('%s %s %s  '%(fruta1, fruta2, fruta3))
+
+
+n1  =  int(input('nº:  '))
+n2  =  int(input('nº:  '))
+
+print(n1,n2)
+
+palavra  = 'Python é show'
+print(palavra, True)
