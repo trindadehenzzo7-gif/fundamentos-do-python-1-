@@ -1,0 +1,18 @@
+
+valor = []
+dicionario = {
+    
+    'a': 50,
+    'b': 60,
+    'c': 100
+    }
+print(dicionario['b'])
+x  = []
+for n in dicionario.keys():    
+    x.append(n)
+print(x[0])
+
+a  =  [x for x in dicionario.keys()]
+print(a[0])
+
+
